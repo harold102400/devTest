@@ -1,6 +1,6 @@
 module.exports = {
     DB_CONNECTION_STRING:
-      "mongodb+srv://haroldmontesdeocaopx:IpH3yNSseySSx2N8@globomantics24.hhy3kxw.mongodb.net/",
+      "mongodb+srv://haroldmontesdeocaopx:IpH3yNSseySSx2N8@globomantics24.hhy3kxw.mongodb.net/test",
     DB_NAME: "test",
     DB_COLLECTION: "devtest",
   };
