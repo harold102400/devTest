@@ -6,7 +6,7 @@ const app = express();
 app.use(cors())
 app.use(express.json());
 
-const DataModel = require('./models/CurrencyInfo');
+const DataModel = require('./models/DataInfo');
 const { DB_CONNECTION_STRING} = require('./config');
 
 const connectToDatabase = async () => {
