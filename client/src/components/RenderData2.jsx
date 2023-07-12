@@ -24,7 +24,6 @@ function RenderData2() {
         <h2 className='card-title'>Datos recibidos:</h2>
         {socketData && socketData.data && (
           <div>
-            {console.log(socketData)}
             {socketData.data.map((item, index) => (
               <div key={index}>
                 <h2 className='card-subtitle'>Símbolo: {item.symbol}</h2>

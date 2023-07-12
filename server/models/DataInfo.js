@@ -6,5 +6,5 @@ const DataSchema = new mongoose.Schema({
     data: [Object]
 })
 
-const DataModel = mongoose.model('devtesting', DataSchema, 'devtesting');
+const DataModel = mongoose.model('devtest', DataSchema, 'devtest');
 module.exports = DataModel;
