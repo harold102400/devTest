@@ -23,5 +23,5 @@ ws.on("message", async (data) => {
 });
 
 app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+  console.log(`Escuchando en puerto ${port}`);
 });
